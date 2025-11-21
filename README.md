@@ -7,12 +7,14 @@ Chaque produit doit avoir :
 
 - un nom `name`
 - une quantité disponible `quantity`
-  Un produit est considéré comme valide lorsque sa quantité est strictement supérieure à 0.
+
+Écris une fonction TypeScript qui compte le nombre de produits valides présent dans un tableau passé en paramètre.
+Un produit est considéré comme valide lorsque sa quantité est strictement supérieure à 0.
 
 **Signature de la fonction :**
 
 ```ts
-function countValidProducts(products: { name: string; quantity: number }[]): number
+function countValidProducts(products: Product[]): number
 ```
 
 ## Exemples
